@@ -1,0 +1,34 @@
+<xml version="1.0" encoding="UTF-8">
+        <suite name="TestSuite" parallel="tests" thread-count="10" verbose="2" configfailurepolicy="continue">
+            <test name="SamsungGalaxy-S3_4.3">
+               <parameter name="DeviceModel" value="Samsung_Galaxy_S3___4_3___API_18___720x1280" />
+                <classes name="Class1">
+                    <class name="FirstTest">
+                        <methods>
+                            <include name="faceTest"/>
+                        </methods>
+                    </class>
+                    <class name="SecondTest">
+                        <methods>
+                            <include name="houseTest"/>
+                        </methods>
+                    </class>
+                </classes>
+            </test>
+            <test name="GoogleNexus-7_5.0.0">
+                <parameter name="DeviceModel" value="Google_Nexus_7___5_0_0___API_21___800x1280" />
+                <classes name="Class2">
+                    <class name="SecondTest">
+                        <methods>
+                            <include name="houseTest"/>
+                        </methods>
+                    </class>
+                    <class name="FirstTest">
+                        <methods>
+                            <include name="faceTest"/>
+                        </methods>
+                    </class>
+                </classes>
+            </test>
+        </suite>
+</xml>

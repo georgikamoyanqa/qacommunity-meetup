@@ -1,0 +1,14 @@
+<xml version="1.0" encoding="UTF-8">
+<configurations>
+    <deviceModel name="Google_Nexus_7___5_0_0___API_21___800x1280">
+        <genymotionVm>Google Nexus 7 - 5.0.0 - API 21 - 800x0</genymotionVm>
+        <appiumNodeVersion>version1</appiumNodeVersion>
+        <appiumNodePort>4723</appiumNodePort>
+    </deviceModel>
+   <deviceModel name="Samsung_Galaxy_S3___4_3___API_18___720x1280">
+        <genymotionVm>Samsung Galaxy S3 - 4.3 - API 18 - 720x1280</genymotionVm>
+        <appiumNodeVersion>version2</appiumNodeVersion>
+        <appiumNodePort>4728</appiumNodePort>
+    </deviceModel>
+</configurations>
+</xml>
